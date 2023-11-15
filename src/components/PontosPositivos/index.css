@@ -1,0 +1,42 @@
+section {
+    color: #fff;
+    text-align: center;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.title-objectives {
+    display: flex;
+    align-items: center;
+    color: #4DF9AE;
+}
+
+.title-objectives h1 {
+    font-size: 100px;
+    font-family: 'Arial Black';
+}
+
+.title-objectives h2 {
+    margin: 0 0 0 12px;
+    font-family: 'Arial Black';
+}
+
+.objective-1 {
+    margin: 50px 0 120px 0;
+}
+
+.title h1,
+.title h2 {
+    color: #4DF9AE;
+}
+
+.objective-1 p { 
+    text-align: left;
+    max-width: 400px;
+    font-size: 18px;
+}

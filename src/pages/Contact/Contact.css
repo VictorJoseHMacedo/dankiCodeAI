@@ -1,0 +1,88 @@
+.formulario-section {
+    display: flex;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+
+    margin: 50px 0 50px 0;
+    padding: 60px;
+    border: 1px solid #00C06D;
+    box-shadow: 2px 2px 30px 2px #4DF9AE;
+    border-radius: 20px;
+
+    margin-bottom: 100px;
+}
+
+#logo-dankiCode {
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.formulario h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #aaa;
+}
+
+.formulario #p-form {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 13px;
+    margin-bottom: 30px;
+}
+
+form input, button{
+    width: 600px;
+    padding-left: 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+.name-email, button {
+    height: 50px;
+}
+
+#text-area {
+    height: 100px;
+}
+
+
+button {
+    background-color: #00C06D;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.entre-em-contato {
+    display: flex;
+    justify-content: center;
+}
+
+.link-whatsapp {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.link-whatsapp img {
+    width: 100px;
+}
+
+.numero p {
+    max-width: 500px;
+}

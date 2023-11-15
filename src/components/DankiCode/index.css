@@ -1,0 +1,48 @@
+.section_dankiCode {
+    display: grid;
+    grid-auto-flow: column;
+
+    max-width: 1400px;
+    margin: 0 auto;
+
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.section_dankiCode_text h1{
+    background: linear-gradient(-45deg, #7CF9C2, #4DF9AE, #47E7A2, #00C06D);
+    background-size: 400% 400%;
+
+    -webkit-background-clip: text;
+    color: transparent;
+
+    line-height: 50px;
+    font-size: 45px;
+    font-family: 'Arial Black', sans-serif;
+
+    margin: 0 0 40px 0;
+}
+
+.section_dankiCode_text p {
+    padding-right: 15px;
+    max-width: 1500px;
+
+    line-height: 30px;
+    color: #fff;
+}
+
+/* Seção Produtos - Danki Code */
+
+.our-products {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    padding-bottom: 150px;
+}
+
+.our-products img {
+    width: 150px;
+
+}

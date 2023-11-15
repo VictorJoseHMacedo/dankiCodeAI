@@ -1,0 +1,20 @@
+.section-social-media {
+    background-color: #141519;
+    padding: 70px 0 70px 0;
+    
+}
+
+.section-social-media h1 {
+    margin-bottom: 27px;
+}
+
+.img-social-media {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+
+.img-social-media img {
+    width: 38px;
+}

@@ -1,0 +1,36 @@
+.header_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 20px;
+    border-bottom: 1px solid #7CF9C2;
+}
+
+.wraper img{
+    width: 230px;
+}   
+
+.buttons-header {
+    display: flex;
+    gap: 27px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#products {
+    background: linear-gradient(-45deg, #7CF9C2, #4DF9AE, #47E7A2, #00C06D);
+    color: #000;
+    cursor: pointer;
+}
+
+#contact {
+    color: #fff;
+    border: 1px solid #7CF9C2;
+}
+
+#products,
+#contact {
+    text-decoration: none;
+    padding: 10px;
+}

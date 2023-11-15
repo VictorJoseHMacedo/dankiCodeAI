@@ -1,0 +1,44 @@
+#informacoes-empresa {
+    background-color: #25282b;
+}
+
+.sobre-a-empresa {
+    display: grid;
+    grid-auto-flow: column;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.empresa,
+.Link-website  {
+    text-align: left;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.empresa img {
+    width: 230px;
+    margin-bottom: 20px;
+
+}
+
+#empresa-p-1 {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+#empresa-p-2 {
+    margin-bottom: 120px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 15px;
+}
+
+.Link-website {
+    text-decoration: none;
+}
